@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calendar';
+  selected = new Date();
+
+  onClick(hour: string) {
+    alert(hour)
+    console.log(hour)
+  }
 }
